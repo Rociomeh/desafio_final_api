@@ -22,7 +22,8 @@ function Buscador({ onBuscar }) { //'onBuscar' propiedad que se espera sea una f
           value={filtro}
           onChange={handleInputChange}
         />
-        <button type="submit">Buscar</button>
+        <button type="submit" style={{marginLeft: '10px' , padding: '3px 9px ', color:'black'}}>Buscar</button>
+        
       </form>
     </div>
   );
